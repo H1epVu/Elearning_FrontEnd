@@ -1,0 +1,171 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+
+  form {
+    max-width: 330px;
+    padding: 1rem;
+
+
+    .form-floating {
+      margin-block: 15px;
+    }
+
+    span {
+      font-size: 12px;
+      text-align: center;
+    }
+  }
+}
+
+.register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+
+  form {
+    max-width: 330px;
+    padding: 1rem;
+
+
+    .form-floating {
+      margin-block: 15px;
+    }
+
+    span {
+      font-size: 12px;
+      text-align: center;
+    }
+  }
+}
+
+.forget-password {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+
+  form {
+    max-width: 600px;
+    padding: 1rem;
+
+
+    .form-floating {
+      margin-block: 15px;
+    }
+
+    span {
+      font-size: 12px;
+      text-align: center;
+    }
+  }
+
+}
+
+.register-instructor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+
+  form {
+    max-width: 450px;
+    padding: 1rem;
+
+    .form-floating {
+      margin-block: 15px;
+    }
+
+    .preview-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 15px;
+
+      .img-preview {
+        max-width: 100%;
+        max-height: 200px;
+        object-fit: cover;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+.carousel-item img {
+  height: 400px;
+  object-fit: cover;
+}
+
+.course-row {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 16px;
+  padding: 10px 0;
+}
+
+.course-card {
+  flex: 0 0 auto;
+  width: 300px;
+  scroll-snap-align: start;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 0.875rem;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.page-item {
+  cursor: pointer;
+}
+
+.page-link {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+}
